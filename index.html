@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+		<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+				<meta charset="utf-8">
+				<title>Catberry.js &mdash; Isomorphic JavaScript Framework</title>
+				<meta http-equiv="x-ua-compatible" content="edge">
+				<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta name="description" content="Catberry is a framework with Flux architecture, isomorphic web-components and progressive rendering.">
+
+				<link rel="stylesheet" href="files/styles.css">
+
+				<!-- Begin Twitter summary card-->
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:title" content="Catberry.js &mdash; Isomorphic JavaScript Framework" />
+				<meta name="twitter:description" content="Catberry is a framework with Flux architecture, isomorphic web-components and progressive rendering." />
+				<meta name="twitter:image" content="http://catberry.org/files/images/social-logo.png" />
+				<meta name="twitter:url" content="http://catberry.org/" />
+				<!-- End Twitter summary card-->
+
+				<!-- Begin Open Graph markup -->
+				<meta property="og:title" content="Catberry.js &mdash; Isomorphic JavaScript Framework" />
+				<meta property="og:description" content="Catberry is a framework with Flux architecture, isomorphic web-components and progressive rendering." />
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="http://catberry.org/" />
+				<meta property="og:image" content="http://catberry.org/files/images/social-logo.png" />
+				<!-- End Open Graph markup -->
+		</head>
+		<body>
+				<header class="header">
+						<div class="header__part">
+								<div class="header__item">
+										<a class="header__link"	href="/">Catberry.js</a>
+								</div>
+								<div class="header__item">
+										<a class="header__link" href="https://github.com/catberry/catberry" target="_blank" title="Github Repository">
+												<span class="icon icon--github icon--size-medium"></span>
+										</a>
+								</div>
+						</div>
+						<div class="header__part">
+								<input type="checkbox" class="header__menu-radio" id="header-menu">
+								<label class="header__menu-burger" for="header-menu">
+										<span class="icon icon--bars icon--size-medium"></span>
+								</label>
+								<div class="header__item">
+										<nav class="navigation">
+												<a class="navigation__item" href="https://github.com/catberry/catberry/blob/master/README.md" target="_blank" title="View readme on GitHub">Overview</a>
+												<a class="navigation__item" href="https://github.com/catberry/catberry/blob/master/docs/index.md" target="_blank" title="View documentation on GitHub">Documentation</a>
+										</nav>
+								</div>
+						</div>
+				</header>
+				<div class="pages">
+						<div class="u-max">
+								<section class="card">
+										<div class="card__info">
+												<h1 class="card__header">Catberry Framework
+														<a class="card__npm" href="https://www.npmjs.com/packages/catberry" target="_blank">
+																<img src="files/images/npm-logo.svg" height="16px">
+														</a>
+												</h1>
+												<p class="card__subheader">
+														Catberry is an isomorphic framework for building universal front-end apps using components, Flux architecture and progressive rendering.
+												</p>
+												<p>
+														<div class="card__title">
+																Install <a href="https://www.npmjs.com/package/catberry-cli" target="_blank">Catberry CLI</a> using following command:
+														</div>
+														<code class="code hljs bash">
+								# npm install -g catberry-cli
+														</code>
+												</p>
+												<p>
+														<div class="card__title">
+																Now you can create an empty project with <a href="http://handlebarsjs.com/" target="_blank">Handlebars</a> support like this:
+														</div>
+														<code class="code">
+								$ catberry init empty-handlebars
+														</code>
+												</p>
+												<p>
+														<div class="card__title">
+																Or an example application that works using GitHub API:
+														</div>
+														<code class="code hljs bash">
+								$ catberry init example
+														</code>
+												</p>
+												<p>
+														<div class="card__title">
+																Also, you can get a list of all templates:
+														</div>
+														<code class="code hljs bash">
+								$ catberry init ?
+														</code>
+												</p>
+										</div>
+										<div class="card__logo">
+												<img width="100%" src="files/images/catberryjs.svg">
+										</div>
+								</section>
+						</div>
+						<hr/>
+						<div class="u-max">
+								<section class="features">
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--code icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														Isomorphic/Universal
+												</div>
+												<div class="features__desc">
+														Catberry builds a bundle for running the application in a browser as a <a href="http://en.wikipedia.org/wiki/Single_Page_Application" target="_blank">Single Page Application</a>
+												</div>
+										</div>
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--puzzle icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														Components
+												</div>
+												<div class="features__desc">
+														<a href="https://github.com/catberry/catberry/blob/master/docs/index.md#cat-components" target="_blank">Cat-Components</a> – similar to <a href="http://webcomponents.org/" target="_blank">web-components</a> but organized as directories, can be rendered on the server and published/installed as NPM packages
+												</div>
+										</div>
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--exchange icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														Flux
+												</div>
+												<div class="features__desc">
+														The entire architecture of the framework is built using the <a href="https://github.com/catberry/catberry/blob/master/docs/index.md#service-locator" target="_blank">Service Locator</a> pattern – which helps to manage module dependencies and <a href="https://github.com/catberry/catberry/blob/master/docs/index.md#plugin-api" target="_blank">create plugins</a> – and <a href="https://github.com/catberry/catberry/blob/master/docs/index.md#flux" target="_blank">Flux</a>, for the data layer
+												</div>
+										</div>
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--unhide icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														SEO
+												</div>
+												<div class="features__desc">
+														Search crawler receives a full page from the server. The whole state of the application is restored from URL
+												</div>
+										</div>
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--rocket icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														Fast and Efficient
+												</div>
+												<div class="features__desc">
+														Server-side <a href="http://www.phpied.com/progressive-rendering-via-multiple-flushes/" target="_blank">progressive rendering</a> based on <a href="http://nodejs.org/api/stream.html#stream_api_for_stream_implementors" target="_blank">node.js streams</a> and parallel rendering of components in a browser
+												</div>
+										</div>
+										<div class="features__item">
+												<span class="features__icon"><span class="icon icon--checkmark icon--size-large"></span>
+												</span>
+												<div class="features__title">
+														Production-Ready
+												</div>
+												<div class="features__desc">
+														The framework is well-tested (code coverage is <a href="https://codecov.io/github/catberry/catberry?branch=master" target="_blank">about 90%</a>) and it is already used in production
+												</div>
+										</div>
+								</section>
+						</div>
+						<hr/>
+						<div class="u-max">
+								<section class="anims">
+										<div class="anims__item">
+												<header class="anims__header">Fast progressive rendering</header>
+												<section class="anim-progressive-rendering anim-wrapper" id="animation" run="pr">
+														<section class="anim-wrapper__part">
+																<header class="anim-wrapper__header">
+																		UX with Unoptimized (regular) rendering
+																</header>
+																<div class="anim-wrapper__desc">
+																		HTML is buffered on the server
+																</div>
+																<div class="anim-wrapper__desc">
+																		until the whole page is built
+																</div>
+																<div class="anim-wrapper__desc">
+																		(user sees a blank page for a long time, more TTFB)
+																</div>
+																<div class="anim-wrapper__browser">
+																		<section class="browser">
+																				<span class="browser__loader"></span>
+																		</section>
+																		<section class="anim-page">
+																				<div class="anim-page__block step-pr step-pr--6">Header</div>
+																				<div class="anim-page__block step-pr step-pr--6">Content 1</div>
+																				<div class="anim-page__block step-pr step-pr--6">Content 2</div>
+																				<div class="anim-page__block step-pr step-pr--6">Content 3</div>
+																				<div class="anim-page__block step-pr step-pr--6">Footer</div>
+																		</section>
+																</div>
+														</section>
+														<section class="anim-wrapper__part">
+																<header class="anim-wrapper__header">
+																		UX with Progressive rendering
+																</header>
+																<div class="anim-wrapper__desc">
+																		Browser receives every chunk of HTML
+																</div>
+																<div class="anim-wrapper__desc">
+																		as soon as it's built on the server
+																</div>
+																<div class="anim-wrapper__desc">
+																		(user sees the first part of the page immediately, less TTFB)
+																</div>
+																<div class="anim-wrapper__browser">
+																		<section class="browser">
+																				<span class="browser__loader"></span>
+																		</section>
+																		<section class="anim-page">
+																				<div class="anim-page__block step-pr step-pr--1">Header</div>
+																				<div class="anim-page__block step-pr step-pr--2">Content 1</div>
+																				<div class="anim-page__block step-pr step-pr--3">Content 2</div>
+																				<div class="anim-page__block step-pr step-pr--4">Content 3</div>
+																				<div class="anim-page__block step-pr step-pr--5">Footer</div>
+																		</section>
+																</div>
+														</section>
+												</section>
+										</div>
+								</section>
+						</div>
+				</div>
+				<footer class="footer">
+						<span>
+								© 2018 <a href="https://github.com/catberry" target="_blank">Catberry.js Team</a>
+						</span>
+				</footer>
+				<script>
+				 var RUNNING = 8500;
+				 var PENDING = 2000;
+				 var timer = setTimeout(runVisualization, PENDING);
+				 var element = document.getElementById('animation');
+				 function runVisualization() {
+						 element.setAttribute('run', 'pr');
+						 timer = setTimeout(cancelVisualization, RUNNING);
+				 }
+
+				 function cancelVisualization() {
+						 element.setAttribute('run', 'false');
+						 timer = setTimeout(runVisualization, PENDING);
+				 }
+				</script>
+		</body>
+</html>
